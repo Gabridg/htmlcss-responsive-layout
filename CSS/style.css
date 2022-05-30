@@ -82,7 +82,7 @@ header {
 .text {
     width: 80%;
     height: calc(100% / 3);
-    background-color: #fff;
+    background-color: #ff0;
 }
 
 .button {
