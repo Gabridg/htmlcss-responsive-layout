@@ -10,7 +10,7 @@
 .container {
     max-width: 350px;
     margin: 0 auto;
-    height: 60px;
+    min-height: 60px;
 }
 
 .flexbox {
@@ -24,10 +24,23 @@
     margin-top: 60px;
 }
 
+.mg-bo-40 {
+    margin-bottom: 40px;
+}
+
+.bgc-white {
+    background-color: #fff;
+}
+
+.bgc-purple {
+    background-color: #9792e4;
+}
+
 
 /* Header */
 header {
     position: relative;
+    min-height: 60px;
 }
 
 
@@ -41,6 +54,41 @@ header {
 }
 
 .column {
-    min-height: 50%;
+    height: 25px;
     background-color: #fff;
 }
+
+/* Main */
+
+/* First section */
+.row {
+    width: 100%;
+}
+
+.card {
+    border-radius: 40px;
+    background-color: #b5ddff;
+    height: 550px;
+    width: 350px;
+    padding: 50px 50px;
+}
+
+.text {
+    width: 80%;
+    height: calc(100% / 3);
+    background-color: #fff;
+}
+
+.button {
+    width: 80%;
+    height: calc(100% / 3);
+    background-color: #00f;
+}
+
+.picture {
+    height: calc(100% / 3 * 2);
+    width: 80%;
+    background-color: #fff;
+}
+
+/* Second section */
