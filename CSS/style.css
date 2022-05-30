@@ -66,7 +66,7 @@ header {
 
 /* Main */
 
-/* First section */
+/* prima section */
 .row {
     width: 100%;
 }
@@ -97,21 +97,26 @@ header {
     background-color: #f0f;
 }
 
-/* Second section */
+/* Seconda section */
 
 .free-card .picture,
 .free-card .text {
     width: 100%;
 }
 
-/* third section */
+/* terza section */
 
 
 
-/* fourth section */
+/* quarta section */
 
 .number {
     width: 80%;
     height: calc(100% / 3);
     background-color: #5f5;
+}
+
+/* quinta section*/
+.bgc-white .free-card {
+    background-color: #afa;
 }
