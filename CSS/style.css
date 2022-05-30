@@ -187,3 +187,15 @@ footer {
     }
 
 }
+
+@media screen and (min-width: 1199px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .planning .free-card,
+    .planning .card-full {
+        width: calc(100% / 2);
+        margin-top: 150px;
+    }
+}
