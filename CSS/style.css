@@ -1,0 +1,46 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mg-main {
+    margin-top: 60px;
+}
+
+
+/* Header */
+header {
+    position: relative;
+}
+
+
+.navbar {
+    min-height: 60px;
+    background-color: #0084fd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.column {
+    min-height: 50%;
+    background-color: #fff;
+}
