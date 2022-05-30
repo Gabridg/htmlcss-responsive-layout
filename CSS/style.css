@@ -32,6 +32,10 @@
     margin-top: 40px;
 }
 
+.pad-top-40 {
+    padding-top: 40px;
+}
+
 .bgc-white {
     background-color: #fff;
 }
@@ -41,10 +45,11 @@
 }
 
 .free-card {
-    margin-top: 40px;
+    padding-top: 40px;
     height: 300px;
     width: 100%;
     background-color: #afa;
+    border: 2px dashed black;
 }
 
 
@@ -132,3 +137,7 @@ header {
 /* sesta sezione */
 
 /* footer */
+
+footer {
+    background-color: #222;
+}
