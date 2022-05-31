@@ -39,6 +39,14 @@ body {
     margin-bottom: 40px;
 }
 
+.mg-bo-20 {
+    margin-bottom: 20px;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+
 .mg-top-40 {
     margin-top: 40px;
 }
@@ -65,7 +73,7 @@ body {
 
 
 .button {
-    width: 80%;
+    width: 100%;
     height: 50%;
     background-color: #fff;
     border-radius: 20px;
@@ -160,7 +168,7 @@ main .flexbox {
     font-size: 20px;
 }
 
-.text p {
+.intro .row .text p {
     color: #666;
     font-weight: bold;
     margin-top: 20px;
@@ -182,7 +190,7 @@ main .flexbox {
     font-size: 20px;
 }
 
-.text .fa-solid {
+.intro .text .fa-solid {
     color: #0084fd;
     margin-bottom: 10px;
     width: 100%;
@@ -283,16 +291,43 @@ main .flexbox {
 }
 
 /* quarta section */
-
-.working-w-us .text h2 {
+.working-w-us .free-card h2 {
     font-size: 35px;
     text-align: center;
+    color: #fff;
+}
+
+.working-w-us .card {
+    background-color: #fff;
+    text-align: left;
+}
+
+.working-w-us .card p {
+    color: #666;
+}
+
+.working-w-us .card .text {
+    text-align: left;
+    color: #9792e4;
 }
 
 .number {
-    width: 80%;
+    width: 100%;
     height: calc(100% / 3);
-    background-color: #5f5;
+    font-size: 40px;
+    color: #9792e4;
+}
+
+.working-w-us .button a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #9792e4;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 30px;
+    text-align: center;
 }
 
 /* quinta section*/
