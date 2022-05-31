@@ -57,10 +57,7 @@ body {
 
 .free-card {
     padding-top: 40px;
-    height: 300px;
     width: 100%;
-    background-color: #afa;
-    border: 2px dashed black;
 }
 
 .fa-bars {
@@ -130,11 +127,11 @@ main .flexbox {
 }
 
 .card-full {
-    width: 300px;
-    padding: 50px 50px;
-    height: 550px;
+    width: 100%;
+    padding: 20px 20px;
     border-radius: 40px;
-    background-color: #b5ddff;
+    background-color: #fff;
+    text-align: center;
 }
 
 .card-big {
@@ -157,7 +154,7 @@ main .flexbox {
 
 .text {
     width: 100%;
-    height: calc(100% / 3);
+    height: calc(100% / 2);
 }
 
 .text h3 {
@@ -169,6 +166,10 @@ main .flexbox {
     color: #666;
     font-weight: bold;
     margin-top: 20px;
+}
+
+.text .mg-top-40 {
+    text-align: center;
 }
 
 .btn {
@@ -190,10 +191,10 @@ main .flexbox {
 }
 
 .picture {
-    height: calc(100% / 3);
-    width: 80%;
+    height: calc(100% / 2);
     text-align: center;
     align-self: flex-end;
+    padding-top: 20px;
 }
 
 /* Seconda section */
@@ -201,6 +202,40 @@ main .flexbox {
 .free-card .picture,
 .free-card .text {
     width: 100%;
+}
+
+.free-card .text,
+.free-card .text p {
+    color: #fff;
+    text-align: left;
+}
+
+.free-card .text p {
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.row .card-full p {
+    color: #000;
+}
+
+.bgc-secondary .picture img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-small a .fa-arrow-down {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9792e4;
+    line-height: 50px;
+    margin: 20px auto;
 }
 
 /* terza section */
@@ -261,6 +296,10 @@ footer {
     .about-us .free-card {
         width: calc(100% / 2);
         display: flex;
+    }
+
+    .text .mg-top-40 {
+        text-align: left;
     }
 
 }
