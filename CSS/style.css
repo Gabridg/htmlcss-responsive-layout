@@ -9,6 +9,10 @@ img {
     height: 100%;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* Utilities */
 
 .container {
@@ -59,7 +63,7 @@ img {
     border: 2px dashed black;
 }
 
-.fa-solid {
+.fa-bars {
     color: #fff;
 }
 
@@ -146,13 +150,13 @@ main .flexbox {
 .card {
     border-radius: 40px;
     background-color: #b5ddff;
-    height: 550px;
     width: 300px;
-    padding: 50px 50px;
+    padding: 20px 20px;
+    text-align: center;
 }
 
 .text {
-    width: 80%;
+    width: 100%;
     height: calc(100% / 3);
 }
 
@@ -179,6 +183,11 @@ main .flexbox {
     font-size: 20px;
 }
 
+.text .fa-solid {
+    color: #0084fd;
+    margin-bottom: 10px;
+    width: 100%;
+}
 
 .picture {
     height: calc(100% / 3);
