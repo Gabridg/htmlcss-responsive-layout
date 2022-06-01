@@ -156,6 +156,7 @@ main .flexbox {
     background-color: #b5ddff;
     padding: 20px 20px;
     text-align: center;
+    width: 90%;
 }
 
 .text {
@@ -285,8 +286,16 @@ main .flexbox {
     background-color: #9792e4;
 }
 
+.testimonial .picture {
+    height: 250px;
+    width: 250px;
+
+}
+
 .testimonial .picture img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -333,17 +342,104 @@ main .flexbox {
 /* quinta section*/
 
 .titolo {
-    min-height: 80px;
+    color: #9792e4;
     width: 100%;
-    background-color: darkslategray;
+    font-size: 40px;
+}
+
+figure {
+    width: 150px;
+    height: 150px;
+}
+
+figure img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-pic {
+    color: #9792e4;
+    font-size: 33px;
+    margin-top: 20px;
+}
+
+.about-pic .btn {
+    text-decoration: none;
+    color: #fff;
+    width: 190px;
+    height: 34px;
+    padding: 2px 25px;
+    background-color: #9792e4;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-pic .btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
 }
 
 /* sesta sezione */
+
+.start {
+    text-align: center;
+    color: #fff;
+}
+
+.titolo-sec {
+    color: rgb(189, 189, 189);
+    font-weight: lighter;
+}
+
+.sub-tit {
+    font-size: 30px;
+}
+
+
+.get-start h2 {
+    color: #fdc15f;
+    font-size: 80px;
+}
+
+
+
+.btn-big {
+    text-decoration: none;
+    width: 90%;
+    height: 55px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 35px;
+    line-height: 55px;
+    padding: 0 10px;
+    color: #9792e4;
+    font-size: 20px;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 13px;
+    width: 75%;
+}
 
 /* footer */
 
 footer {
     background-color: #222;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+footer .copyright a {
+    color: #9792e4;
 }
 
 /* responsive */
